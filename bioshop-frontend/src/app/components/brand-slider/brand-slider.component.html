@@ -1,0 +1,11 @@
+<p>brand-slider works!</p>
+<div class="brand-slider">
+  <h2>Nos Marques Partenaires</h2>
+  <div class="slider-container">
+    <div class="slider-track">
+      <div class="slide" *ngFor="let brand of brands">
+        <img [src]="brand.logo" [alt]="brand.name">
+      </div>
+    </div>
+  </div>
+</div>
